@@ -1,0 +1,91 @@
+.ladoalado {
+    display: flex;
+    /*usa um layout flexivel para alinhar os elementos*/
+    align-items: center;
+    /*alinhamento horizontal dos itens*/
+    justify-content: center;
+    /*Alinhamento horizontal dos itens*/
+    gap: 5rem;
+    padding: 2%;
+}    
+
+#imagem{
+    border-radius: 21%;
+    width: 60%;
+    height: 50%;
+}
+#imagem{
+    border-radius: 21%;
+    width: 60%;
+    height: 50%;
+}
+
+#video{
+border-radius: 0%;
+width: 100%;
+height: 50%;
+}
+
+hr{
+    border: 1px solid;
+    border-color: aliceblue;
+}
+
+body {
+    background-color: rgb(81, 153, 172);
+    font-family: 'Courier New', Courier, monospace;
+}
+.ladoalado2{
+    width: 100%;
+    display: flex;
+    position:fixed;
+    z-index: 1;
+    align-items: center;
+    gap: 1rem;
+}
+
+menu {
+
+    background-color: rgb(196, 216, 235);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    padding-left: 100px;
+    gap: 1rem;
+    margin-top: -14%;
+    width: 100%;
+    height: 50px;
+}
+
+.menu-item {
+    text-decoration: none;
+    color:black;
+    font-weight: bold; /* Define o texto como negrito */
+    gap:10px;
+   
+}
+
+
+section {
+    border: 1px solid;
+    border-color: rgb(9, 86, 105);
+    margin: 10%;
+    /*define o espaço entre o limite da pagina web e os elemento contidos nela*/
+    padding: 5%;
+}
+
+hr {
+    border: 1px solid;
+    /*define a largura e o tipo de borda*/
+    border-color: rgb(255, 255, 255);
+    /*define a cor da borda (linha)*/
+    Width: 35%;
+}
+
+.menu-item:hover{
+    color:rgb(7, 101, 138);
+    font-size: 18px;
+    border: 1px solid;
+}
